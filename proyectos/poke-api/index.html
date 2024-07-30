@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>PokemonApi</title>
+</head>
+
+
+<body>
+<h1 class="text-center mt-5 display-4 text-primary" >Pokemon Randon</h1>
+
+<div class="pokemon-list" id="listaPokemon">
+    <div class="pokemon" id="pokemon-1">
+        <img src="">
+        <p></p>
+    </div>
+
+
+        <button class="btn btn-dark" id="btn" onclick="randonPokemon()">Random</button>
+
+
+    <div class="pokemon" id="pokemon-2">
+        <img src="">
+        <p></p>
+    </div>
+</div>
+<br>
+
+<br>
+<h1 class="text-center mt-5 display-4 text-primary">Buscar Pokemon Id/Nombre</h1>
+
+<div class="section">
+    <input type="text" class="btn btn-warning" id="dato">
+</div>
+
+<div class="container">
+    
+    <div class="pokemon" id="poke-1">
+        <img id="pintar1" src="">
+        <p id="nom1"></p>
+        <p id="tipo"></p>
+    </div>
+
+        <button class="btn btn-warning" id="buscar">Buscar</button>
+    
+    <div class="pokemon" id="poke-2">
+        <img id="pintar2" src="">
+        <p id="hab1"></p>
+        <p id="hab2"></p>
+    </div>
+</div>
+
+<br>
+  <script src="conectar.js"></script> 
+</body>
+</html>

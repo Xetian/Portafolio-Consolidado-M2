@@ -1,0 +1,13 @@
+main {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
